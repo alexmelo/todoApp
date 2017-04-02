@@ -8,6 +8,8 @@ import { FirebaseApp, AngularFire, FirebaseListObservable} from 'angularfire2';
 
 import { AuthService } from '../../providers/auth-service';
 
+import { Page1 } from '../page1/page1';
+
 @Component({
   selector: 'page-page2',
   templateUrl: 'page2.html'
@@ -170,4 +172,7 @@ export class Page2 {
     this.items.update(item, {position: position});
   }
 
+openAddTask() {
+      this.navCtrl.setRoot(Page1);
+}
 }
