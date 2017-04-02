@@ -42,10 +42,13 @@
 <ion-footer>
   <ion-segment [(ngModel)]="showOnlyCompletedActives" (ngModelChange)="queryTasks()" color="primary">
     <ion-segment-button value="false">
-      All
+      Todas
     </ion-segment-button>
     <ion-segment-button value="true">
-      Completed
+      Concluídas
+    </ion-segment-button>
+    <ion-segment-button value="true">
+      Abertas
     </ion-segment-button>
   </ion-segment>
 </ion-footer>

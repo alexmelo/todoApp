@@ -16,11 +16,12 @@ import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
 import { AgmCoreModule } from 'angular2-google-maps/core';
  
 export const firebaseConfig = {
-  apiKey: "AIzaSyDBsHvTR0wYxf5V0b-C_JjoGErHJCEho8g",
-  authDomain: "todo-5d8fc.firebaseapp.com",
-  databaseURL: "https://todo-5d8fc.firebaseio.com",
-  storageBucket: "todo-5d8fc.appspot.com",
-  messagingSenderId: "901124139844"
+    apiKey: "AIzaSyANj2pMlLlyTPhX7d6beZ5Hil6ACjfpV9Y",
+    authDomain: "todo-348e1.firebaseapp.com",
+    databaseURL: "https://todo-348e1.firebaseio.com",
+    projectId: "todo-348e1",
+    storageBucket: "todo-348e1.appspot.com",
+    messagingSenderId: "505498157530"
 };
 
 const cloudSettings: CloudSettings = {
