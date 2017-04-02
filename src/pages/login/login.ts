@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { AuthService } from '../../providers/auth-service';
-import { Page1 } from '../page1/page1';
+import { Page2 } from '../page2/page2';
 
 /*
   Generated class for the Login page.
@@ -30,7 +30,7 @@ export class LoginPage {
     this.auth.signInWithPassword(this.user).then(
       (authData) => {
       alert(JSON.stringify(authData));
-      this.navCtrl.setRoot(Page1);
+      this.navCtrl.setRoot(Page2);
     }
     ).catch((error) => {
       alert(error);
